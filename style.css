@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
 *{
     margin: 0;
     padding: 0;
+
 }
 
-body{
+body {
     width: 100%;
     height: 100hv;
     font-family: 'Poppins', sans-serif;
-
+    background-color: whitesmoke;
 }
 
-.form{
-
-
+.CadL {    
+    width: 50%;
+    height: 50hv;
+    background: (-45deg, #02a5e0, #093979);
+    
 }
+

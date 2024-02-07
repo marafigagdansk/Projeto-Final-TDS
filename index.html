@@ -1,48 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div id="form" class="form">
-          <div class="Left">
-            <div class="insideL">
-                <!-- <img src="Imagens/DSC08252.jpg" alt="Descrição da imagem"> -->
+    <div id="form">
+        <form class="CadL" action="">
+            <div>
+                <h1 class="title">Cadastrar</h1>
             </div>
-           
-        </div>
 
+            <label for="username">Nome</label>
+            <div class="input">
+                <input id="username" name="username" placeholder="Nome" type="text">
+                
+            </div>   
 
-        <div class="Right">
-            <div class="insideR">
-                <form action="">
-                    <h2 class="title">Cadastro</h2>
+            <label for="Email">Email</label>
+            <div class="input">
+                <input id="email" name="email" placeholder="Email" type="text"> 
+            </div>
 
-                    <label for="">Nome</label>
-                    <div class="input">
-                        <input id="username" name="username" placeholder="Username" type="text">
-                    </div>
+            <label for="password">Senha</label>
+            <div class="input">
+                <input id="password" name="password" placeholder="Senha" placetype="password">
+            </div>
+            <div id="button">
+                <button type="submit">Cadastrar</button>
+            </div>
+            
+        </form>  
+        
+        <form class="esquerda" action="">
 
-                    <label for="email">Email</label>
-                    <div class="input">
-                        <input  id="useremail" name="useremail" placeholder="Email" type="text">
-                    </div>
-
-                    <label for="senha">Senha</label>
-                    <div class="input">
-                        <input id="userpass" name="userpass" placeholder="Senha" type="password">
-                    </div>
-                    
-                    <div id="btn">
-                        <button type="submit">Cadastrar</button>
-                    </div>
-            </div>    
-            </form>
-        </div>
+        </form>
     </div>
 </body>
 </html>
