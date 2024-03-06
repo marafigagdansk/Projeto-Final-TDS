@@ -136,7 +136,6 @@ body {
 .recuL {
     display: flex;
     flex-direction: column;
-    background-color: #03bcff;
     width: 50%;
     height: 100vh;
 }
